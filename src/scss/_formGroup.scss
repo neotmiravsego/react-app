@@ -1,0 +1,18 @@
+@import "./_variables.scss";
+.form-group__wrap {
+    text-align: left;
+}
+
+.form-group__input {
+    width: calc(100% - 44px);
+    padding: 20px 20px 20px 24px;
+    outline: none;
+    border: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background: transparent;
+    color: $white;
+    &::placeholder {
+        color: $light;
+    }
+}

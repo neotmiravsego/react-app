@@ -1,0 +1,25 @@
+@import "./header.scss";
+@import "./formGroup.scss";
+@import "./form.scss";
+@import "./variables.scss";
+@import "./homePage.scss";
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: $white;
+}

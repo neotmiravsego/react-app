@@ -1,0 +1,45 @@
+@import "./_variables.scss";
+.form__wrap {
+    margin: 0 auto;
+    max-width: $widthForm;
+    width: 100%;
+    background: #363138;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 52px 60px 68px;
+    box-sizing: border-box;
+    .form__group__list {
+        margin-bottom: 36px;
+    }
+    .form__title {
+        margin-bottom: 32px;
+        color: #e06764;
+    }
+    .privacy-policy {
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        &__txt {
+            font-size: $fontSize1;
+        }
+        &_green {
+            color: #37b487;
+            border-bottom: 1px solid #37b487;
+            padding: 0 2px 2px;
+        }
+    }
+    .form__button {
+        padding: 14px 40px;
+        margin: 0 auto;
+        border-radius: 22px;
+        border: none;
+        background: #e06764;
+        color: #fff;
+        font-size: $fontSize1;
+    }
+    .confirmed {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,23 @@
+.header__component {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #2b262d;
+    box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.24);
+    .header__list__controls {
+        display: flex;
+        color: #fff;
+        .list__controls__item {
+            padding: 0 36px;
+        }
+    }
+    .header__logo {
+        padding: 10px 30px;
+        background: #e06764;
+        font-size: 32px;
+    }
+}
